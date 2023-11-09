@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance Slider Loop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="swiper swiper-main">
+
+        <div class="cm-overlay">
+            <h1>Swiper Slider</h1>
+            <p>JavaScript library that creates modern touch sliders with hardware-accelerated transitions and excellent native behavior.
+            </p>
+            <button> Get Started</button>
+        </div>
+
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img class="" src="assets/1.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="" src="assets/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="" src="assets/3.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="" src="assets/4.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="" src="assets/5.jpg" alt=""></div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+        <div class="controls">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+
+    </div>
+
+    <div class="swiper swiper-thumb" thumbsSlider="">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img class="" src="assets/1.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="" src="assets/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="" src="assets/3.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="" src="assets/4.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="" src="assets/5.jpg" alt=""></div>
+            <!-- Duplicate the slides to achieve looping -->
+            <div class="swiper-slide"><img class="" src="assets/1.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="" src="assets/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="" src="assets/3.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="" src="assets/4.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="" src="assets/5.jpg" alt=""></div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
